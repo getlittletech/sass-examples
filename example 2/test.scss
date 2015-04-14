@@ -1,0 +1,20 @@
+$main-color: gray;
+$different-color: red;
+
+$main-size: 1em;
+$different-size: 1.2em;
+
+p {
+	font-size: $main-size;
+	color: $main-color;
+}
+
+a {
+	font-size: $different-size;
+	color: $different-color;
+}
+
+p.different {
+	font-size: $different-size;
+	color: $different-color;
+}

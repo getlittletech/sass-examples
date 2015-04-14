@@ -1,0 +1,12 @@
+p.different {
+	font-size: $different-size;
+	color: $different-color;
+}
+
+div.with_cover {
+  @include background-size(cover);
+}
+
+div.with_contain {
+  @include background-size(contain);
+}

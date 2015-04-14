@@ -1,0 +1,14 @@
+@mixin background-size($bgSize) {
+  -moz-background-size: $bgSize;
+  -o-background-size: $bgSize;
+  -webkit-background-size: $bgSize;
+  background-size: $bgSize;
+}
+
+div.with_cover {
+  @include background-size(cover);
+}
+
+div.with_contain {
+  @include background-size(contain);
+}

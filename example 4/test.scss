@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixins";
+@import "widgets";
+
+/*
+ * rest of your sass code
+ */
+    
+p {
+	font-size: $main-size;
+	color: $main-color;
+}
+
+a {
+	font-size: $different-size;
+	color: $different-color;
+}
